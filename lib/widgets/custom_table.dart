@@ -5,7 +5,6 @@ class CustomTable extends StatelessWidget {
   final List<List<dynamic>> rows;
 
   const CustomTable({
-    super.key,
     required this.headers,
     required this.rows,
   });

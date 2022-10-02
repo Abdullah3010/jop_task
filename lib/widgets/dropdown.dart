@@ -46,13 +46,12 @@ class MiraiDropdownWidget<String> extends StatelessWidget {
         exit: exit,
         showSeparator: showSeparator,
         children: children,
-        itemWidgetBuilder: itemWidgetBuilder,
+        itemWidget: itemWidgetBuilder,
         onChanged: (value) {
           onChanged(value);
         },
         maxHeight: maxHeight,
         showOtherAndItsTextField: showOtherAndItsTextField,
-        showSearchTextField: showSearchTextField,
         other: other,
         child: Container(
           key: GlobalKey(),

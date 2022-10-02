@@ -6,7 +6,7 @@ import 'package:jop_task/models/menu_item.dart';
 class MenuList extends StatefulWidget {
   final List<DetailsListItem> items;
 
-  const MenuList({super.key, required this.items});
+  const MenuList({ required this.items});
 
   @override
   State<MenuList> createState() => _MenuListState();

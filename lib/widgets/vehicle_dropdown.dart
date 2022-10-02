@@ -7,7 +7,7 @@ class VehicleDropDown extends StatefulWidget {
   final ValueNotifier<String> _selectedVehicle =
       ValueNotifier(dropdownItems.keys.first);
 
-  VehicleDropDown({super.key});
+  VehicleDropDown();
 
   @override
   State<VehicleDropDown> createState() => _VehicleDropDownState();

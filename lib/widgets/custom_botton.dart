@@ -5,7 +5,6 @@ class CustomBotton extends StatelessWidget {
   final Function() onTap;
 
   const CustomBotton({
-    super.key,
     required this.title,
     required this.onTap,
   });

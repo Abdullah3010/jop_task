@@ -8,7 +8,7 @@ import 'package:jop_task/widgets/custom_table.dart';
 import 'package:jop_task/widgets/vehicle_dropdown.dart';
 
 class DetailsScreen extends StatefulWidget {
-  const DetailsScreen({super.key});
+
 
   @override
   State<DetailsScreen> createState() => _DetailsScreenState();

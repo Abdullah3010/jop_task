@@ -7,11 +7,11 @@ import 'package:jop_task/test_screen.dart';
 import 'package:jop_task/widgets/menu_widget.dart';
 
 class HomeScreen extends StatelessWidget {
-  const HomeScreen({super.key});
+
 
   @override
   Widget build(BuildContext context) {
-    const screens = [
+    final screens = [
       DetailsScreen(),
       TestScreen(),
       TestScreen(),
